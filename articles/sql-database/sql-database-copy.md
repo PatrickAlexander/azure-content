@@ -41,7 +41,7 @@ To copy a SQL database you need the following:
 
 - An Azure subscription. If you need an Azure subscription simply click **FREE TRIAL** at the top of this page, and then come back to finish this article.
 - A SQL database to copy. If you do not have a SQL database, create one following the steps in this article: [Create your first Azure SQL Database](sql-database-get-started.md).
-
+- Proper permission on SQL Server to be able to perform database copy task. For more information about logins and connecting to the server, see Managing Databases, Logins, and Users in Azure SQL Database and Azure SQL Database Development: How-to Topics, respectively.
 
 
 ## Copy your SQL database
