@@ -26,7 +26,7 @@ For API and error details, see [Elastic database pool reference](sql-database-el
 
 ## How it works
 
-A common SaaS application pattern is for each customer to be given a database. Each customer (database) has unpredictable resource requirements for memory, IO, and CPU. With these peaks and valleys of demand, how do you allocate resources? Traditionally, you had two options: either over-provision resources based on peak usage, and over pay, or under-provision to save cost, at the expense of performance and customer satisfaction during peaks. Elastic database pools solve this problem by ensuring that databases get the performance resources they need, when they need it, while  providing a simple resource allocation mechanism within a predictable budget.
+A common SaaS application pattern is for each customer to be given a database. Each customer (database) has unpredictable resource requirements for memory, IO, and CPU. With these peaks and valleys of demand, how do you allocate resources? Traditionally, you had two options: either over-provision resources based on peak usage, and over pay, or under-provision to save cost, at the expense of poor performance and customer dissatisfaction during peaks usage. Elastic database pools solve this problem by ensuring that databases get the performance resources they need, when they need it, while  providing a simple resource allocation mechanism within a predictable budget.
 
 > [AZURE.VIDEO elastic-databases-helps-saas-developers-tame-explosive-growth]
 
